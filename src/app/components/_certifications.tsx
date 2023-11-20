@@ -1,61 +1,7 @@
 import { useState, useEffect } from 'react'
-
+import {certifications} from '../../pages/api/certifications';
 export default function Certifications()
 {
-    const certifications = [
-        {
-            "name":"Meta Frontend Developer Specialization",
-            "issuingOrganization": "CoursEra",
-            "url" : "#",
-            "date" : "Aug 2023",
-            "credentials"  :"XYTJHSHLKS",
-            "courses":[
-                {
-                    "name":"Introduction To Frontend Development",
-                    "url":"#"
-                },{
-                    "name":"HTML and CSS basics",
-                    "url":"#"
-                }
-            ]
-        },
-        {
-            "name":"Meta Backend Developer Specialization",
-            "issuingOrganization": "CoursEra",
-            "url" : "#",
-            "date" : "Aug 2023",
-            "credentials"  :"HJSHGDJHS",
-            "courses":[
-                {
-                    "name":"Introduction To Python",
-                    "url":"#"
-                },{
-                    "name":"Django Web Framework",
-                    "url":"#"
-                }
-            ]
-        },
-        {
-            "name":"IBM DevOps and Software Engineering Specialization",
-            "issuingOrganization": "CoursEra",
-            "url" : "#",
-            "date" : "Aug 2023",
-            "credentials"  :"LKSJJGSSGFX",
-            "courses":[
-                {
-                    "name":"Introduction To DevOps",
-                    "url":"#"
-                },{
-                    "name":"Basics of Cloud Computing",
-                    "url":"#"
-                }
-            ]
-        
-        }
-
-
-
-    ]
     const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
     useEffect(() => {
         setAccordionOpen(false)
@@ -94,9 +40,9 @@ export default function Certifications()
 
                 <li key = {idx} className="pb-3" >
                  
-                 <a href={course.url} className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                 <a href={course.url} target = "_blank" className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
                  {course.name}  <svg className="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
 </svg>
 </a>
                 </li>

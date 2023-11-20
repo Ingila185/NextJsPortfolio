@@ -1,43 +1,10 @@
 import experience from "@/pages/experience";
 import { useState, useEffect } from 'react'
 import Accordion from "./_accordion";
-
+import {workExperience} from '../../pages/api/experience';
+import { workerData } from "worker_threads";
 export default function Experience()
 {
-
-      
-    const experience = [
-        {
-            "company" : "Habib Bank Limited",
-            "title": "Senior Full Stack Developer",
-            "from": "Jan 2023",
-            "to": "Present",
-            "url":"https://www.hbl.com",
-            "desc" : ["Improved Remittance payment efficiency by 90% by revamping the legacy Remittance processing software into modern, feature-rich Remittance processing solution",
-            "Developed 10+ end-to-end applications ",
-            "Implemented Test Driven Development (TDD) and Business Driven Development (BDD) in 20+ projects by using unit test suites like Jest resulting strict alignment of software with business objectives with Continuous Integration and Continuous Development.",
-            "Conducted 6-day MEAN Stack training for 26 developers with varying levels of experience.",
-            "Performed 300+ code reviews ensuring the best design principles like SOLID being implemented and best coding practices being followed along with UAT support",
-            "Ensured effective communication with tools like Jira, MS Teams, Azure DevOps. Performed CI/CD and version control using GitHub, GitLab and DevSecOps."
-        
-        ]
-        },{
-            "company" : "Habib Bank Limited",
-            "title": "Full Stack Developer",
-            "from": "Dec 2017",
-            "to": "Dec 2022",
-            "url":"https://www.hbl.com",
-            "desc" : ["Improved Remittance payment efficiency by 90% by revamping the legacy Remittance processing software into modern, feature-rich Remittance processing solution",
-            "Developed 10+ end-to-end applications "]
-        },{
-            "company" : "Bank Al Habib Limited",
-            "title": "Full Stack Java Developer",
-            "from": "Aug 2016",
-            "to": "Nov 2017",
-            "url":"https://www.bankalhabib.com/",
-            "desc" : ["Hey"]
-        }
-    ]
     const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
     useEffect(() => {
         setAccordionOpen(false)
@@ -87,7 +54,7 @@ export default function Experience()
 
 <div>
       <div className="accordion">
-        {experience.map(({ title, desc }) => (
+        {workExperience.map(({ title, desc }) => (
           <Accordion title={title} content={desc} />
         ))}
       </div>

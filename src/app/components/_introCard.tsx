@@ -1,7 +1,7 @@
 export default function IntroCard() {
   var names = ['Full Stack Developer','Designer','Architect', 'Enthusiast'];
 return (
-<div className="flex flex-col items-left justify-center">
+<div className="flex flex-col items-left justify-left overflow-auto">
   
   <div className="w-max">
   <div className="border-r-white text-4xl text-slate-500 font-bold">
@@ -13,9 +13,16 @@ return (
     <span className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white text-5xl text-slate-500 font-bold inline-block">{names[0]}</span>        
   </div>
   <div className="w-max">
-  <div className="border-r-white text-4xl text-slate-500 font-bold">
-    <h2>I love building applications on JavaScript, Python and other frameworks.</h2>
-  </div>
+  <div className="border-r-white text-2xl text-slate-500 font-bold">
+    <p>This portfolio is built on:</p>
+      <ul>
+        <li>Frontend: Next.js14</li>
+        <li>Backend: Django Rest Framework</li>
+        <li>UI/UX kit: TailwindCSS</li> 
+        <li>Database: PostGresQL(Local)</li>
+        <li>Serverless DB: Vercel Neon</li>
+        <li>CI/CD: Vercel and GitHub</li>
+        </ul></div>
   </div>
 </div>
 
