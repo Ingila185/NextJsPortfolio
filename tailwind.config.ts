@@ -42,11 +42,15 @@ const config: Config = {
         '60%': { transform: 'rotate( 0.0deg)' },  /* Reset for the last half to pause */
        '100%' : { transform: 'rotate( 0.0deg)' }
       },
+      shine: {
+        "100%": { left: "125%" },
+      },
       
       },
       animation: {
         typing: 'typing 3s steps(26) infinite alternate, blink .5 linear alternate',
-        wave: 'wave 2s linear infinite'
+        wave: 'wave 2s linear infinite',
+        shine: "shine 1s"
       },
     },
   

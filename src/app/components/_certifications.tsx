@@ -9,7 +9,7 @@ export default function Certifications()
     
 
     return (
-<div>
+<div className='p-10'>
 
     { certifications.map((cert, idx)=>
 
@@ -19,7 +19,7 @@ export default function Certifications()
           className="flex items-center justify-between w-full text-left font-semibold py-2"
           onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
           aria-expanded={accordionOpen}
-          aria-controls={`accordion-text-01`}
+          aria-controls={idx.toString()}
         >
           <h5>{cert.name}</h5>
           <svg className="fill-indigo-500 shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@ export default function Certifications()
         </button>        
       </h2>
       <div
-        id={`accordion-text-01`}
+        id= {idx.toString()}
         role="region"
         aria-labelledby={`accordion-title-01`}
         className={`grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out ${accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}

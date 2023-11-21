@@ -1,13 +1,14 @@
 export default function IntroCard() {
   var names = ['Full Stack Developer','Designer','Architect', 'Web 3.0 Enthusiast'];
 return (
-<div className="flex flex-col items-left justify-center overflow-auto">
-  
+<div className="container p-10 flex flex-col items-center justify-between mx-auto h-auto overflow-auto">
+  <section className="p-15 flex flex-auto ">
   <div className="w-max">
-  <div className="border-r-white text-4xl  font-bold">
+  <div className="border-r-white text-5xl  font-bold">
     <h2>Hey there <span className="animate-wave inline-block">👋</span> I'm Ingila.</h2>
   </div>
   </div>
+  </section>
   <div className="w-max">
   <h1 className="border-r-white pr-5 text-5xl  font-bold">I'm a </h1>
     <span className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white text-5xl  font-bold inline-block">{names[0]}</span>        

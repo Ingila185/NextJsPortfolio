@@ -3,7 +3,7 @@ export const projects =
     {
         "name":"Remit HBL",
         "url":"https://www.hbl.com",
-        "desc": "RemitHBL is a payment solution developed in-house by HBL to facilitate cross-border payments. The solution is currently serving 2.7M users worldwide and is used to send/receive remittances from across the world and is integrated seamlessly with banking applications and agencies including J.P Morgan.",
+        "desc": "Payment solution developed by HBL to facilitate cross-border payments. The solution is currently serving 2.7M users worldwide and is used to send/receive remittances from across the world and is integrated seamlessly with banking applications including J.P Morgan.",
         "tools":
         {
             "Frontend":"Angular 12 / Material UI",

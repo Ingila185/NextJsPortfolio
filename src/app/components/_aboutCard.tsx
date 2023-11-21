@@ -2,9 +2,9 @@
 export default function AboutCard({repo} : any)
 {
     return (
-<div className="flex flex-wrap space-x-4 items-left justify-left">
+<div className="flex flex-wrap space-x-4 ">
     
-    <div className="p-10">
+    <div className="p-10 items-center justify-center">
         <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-white">About Me</h5>
         </a>
@@ -34,8 +34,7 @@ Discord
 {/**Email */}
 <div className="flex flex-1" >
 <a href = 'mailto:ingila185@gmail.com' target = "_blank">
-<svg className="w-10 h-10 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"  fill-rule="evenodd"
-  clip-rule="evenodd">
+<svg className="w-10 h-10 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"  fill-rule="evenodd" clip-rule="evenodd">
     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
   </svg>
 Email
@@ -50,6 +49,8 @@ Email
   xmlns="http://www.w3.org/2000/svg"
   className="h-10 w-10"
   fill="currentColor"
+  fill-rule="evenodd"
+  clip-rule="evenodd"
   viewBox="0 0 24 24">
   <path
     d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
@@ -94,7 +95,7 @@ GitHub
 
 <a href = 'https://xing.com/profile/Ingila_Ejaz/' target = "_blank">
 <svg xmlns="http://www.w3.org/2000/svg"  className="h-10 w-10"
-  fill="white"  viewBox="0 0 500 500">
+  fill="currentColor"  viewBox="0 0 500 500">
     <path d="M162.7 210c-1.8 3.3-25.2 44.4-70.1 123.5-4.9 8.3-10.8 12.5-17.7 12.5H9.8c-7.7 0-12.1-7.5-8.5-14.4l69-121.3c.2 0 .2-.1 0-.3l-43.9-75.6c-4.3-7.8.3-14.1 8.5-14.1H100c7.3 0 13.3 4.1 18 12.2l44.7 77.5zM382.6 46.1l-144 253v.3L330.2 466c3.9 7.1.2 14.1-8.5 14.1h-65.2c-7.6 0-13.6-4-18-12.2l-92.4-168.5c3.3-5.8 51.5-90.8 144.8-255.2 4.6-8.1 10.4-12.2 17.5-12.2h65.7c8 0 12.3 6.7 8.5 14.1z"/>
     </svg>
 

@@ -4,25 +4,21 @@ export default function Projects()
 {
     
     return (
-        <div className='grid grid-cols-3'>
+
+
+        <div className='p-10 grid grid-cols-3 overflow-hidden '>
 
         {projects.map((exp,idx) =>
         
-        <div key = {idx} className="grid grid-cols-1 space-x-4 space-y-4">
-        <div className="shadow-2xl p-5 max-w-lg max-h-screen bg-white border border-gray-200 solid-lg  dark:bg-gray-800  dark:border-gray-700 shadow-cyan-500/50">
-        <div className="p-5">
-        <a href={exp.url} target="_blank"  >
-         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{exp.name}</h5>
-        </a>
-        
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            {exp.desc}
-        </p>
-        </div>
-        </div>
-        <div className="divide-y divide-solid">
-        </div>
-        </div>
+            <div key = {idx} className = "p-3 m-2 box-content border-2 rounded-lg border-indigo-500/100  ">
+             <h4><b>{exp.name}</b></h4>   
+             <a href ={exp.url} target = "_blank" className='text-blue-500'>{exp.url}</a>   
+             <p>{exp.desc}</p> 
+
+             <div className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
+
+            </div>
+
         )}
         </div>
            )
