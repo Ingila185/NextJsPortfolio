@@ -45,7 +45,7 @@ const config: Config = {
       
       },
       animation: {
-        typing: 'typing 3s steps(26) infinite alternate, blink .8 linear alternate',
+        typing: 'typing 3s steps(26) infinite alternate, blink .5 linear alternate',
         wave: 'wave 2s linear infinite'
       },
     },
