@@ -1,7 +1,7 @@
 export default function IntroCard() {
   var names = ['Full Stack Developer','Designer','Architect', 'Web 3.0 Enthusiast'];
 return (
-<div className="flex flex-col items-left justify-left overflow-auto">
+<div className="flex flex-col items-left justify-center overflow-auto">
   
   <div className="w-max">
   <div className="border-r-white text-4xl  font-bold">
@@ -13,7 +13,7 @@ return (
     <span className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white text-5xl  font-bold inline-block">{names[0]}</span>        
   </div>
   <div className="w-max">
-  <div className="border-r-white font-bold">
+  <div className="border-r-white ">
     <p>This portfolio is built on:</p>
       <ul>
         <li>Frontend: Next.js14</li>
