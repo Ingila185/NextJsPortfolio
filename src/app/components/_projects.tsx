@@ -6,11 +6,11 @@ export default function Projects()
     return (
 
 
-        <div className='p-10 grid grid-cols-3 overflow-hidden '>
+        <div className='p-10 grid md: grid-cols-1 overflow-hidden xs: grid-cols-1 '>
 
         {projects.map((exp,idx) =>
         
-            <div key = {idx} className = "p-3 m-2 box-content border-2 rounded-lg border-indigo-500/100  ">
+            <div key = {idx} className = "p-3 m-2 box-content border-2 rounded-lg border-indigo-500/100 transition duration-150 ease-in-out  hover:  hover:duration-15">
              <h4><b>{exp.name}</b></h4>   
              <a href ={exp.url} target = "_blank" className='text-blue-500'>{exp.url}</a>   
              <p>{exp.desc}</p> 
