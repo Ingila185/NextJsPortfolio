@@ -7,7 +7,7 @@ export default function Experience()
 {
     return (
 
-<div className="p-10 grid lg: grid-cols-2  md: grid-cols-2 ">
+<div className="p-10 grid lg: grid-cols-2  xl: grid-cols-4 sm: grid-cols-1 ">
 
 {
 workExperience.map(( exp, idx ) => (

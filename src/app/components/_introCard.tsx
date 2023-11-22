@@ -1,6 +1,7 @@
 export default function IntroCard() {
   var names = ['Full Stack Developer','Designer','Architect', 'Web 3.0 Enthusiast'];
 return (
+  <section>
 <div className="container p-10 flex flex-col content-center items-center justify-center mx-auto h-auto overflow-hidden ">
   <center className="p-15 flex flex-auto ">
 
@@ -24,6 +25,6 @@ return (
   
   </div>
 </div>
-
+</section>
 )
 }

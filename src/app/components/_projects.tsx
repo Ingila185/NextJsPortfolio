@@ -6,7 +6,7 @@ export default function Projects()
     return (
 
 
-        <div className='p-10 grid md: grid-cols-1 overflow-hidden xs: grid-cols-1 '>
+        <div className='p-10 grid md: grid-cols-1 overflow-scroll overflow-auto xs: grid-cols-1 '>
 
         {projects.map((exp,idx) =>
         

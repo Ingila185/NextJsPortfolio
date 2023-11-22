@@ -14,7 +14,13 @@ export default function Template({ children }: { children: React.ReactNode }) {
       animate="enter"
       transition={{ type: "linear" }}
     >
+      <motion.div  animate={{
+    x: 0, y:0,
+    position: "fixed",
+    
+  }} >
       {children}
+      </motion.div>
     </motion.main>
     )
   }

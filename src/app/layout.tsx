@@ -15,7 +15,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     <body >
     <ThemeProvider attribute='class'>
     <NavBar />
-    <main className='h-screen flex flex-wrap'>
+    <main className='md: container md:mx-auto'>
         {children}
         </main>
       </ThemeProvider>   
