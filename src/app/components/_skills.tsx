@@ -1,8 +1,9 @@
 export default function Skills() {
     return (
-        <div className="p-10 grid grid-cols-1 grid-rows-4 gap-8 md: grid-cols-1 ">
-            <div className="grid grid-cols-12 gap-8 md: grid grid-cols-12 grid-rows-1" >
-                Frontend
+        <article className="p-10 flex flex-col justify-center items-center gap-6 font-extrabold underline ">
+            Front-End
+            <div className="grid grid-cols-6 grid-rows-2 gap-8 lg:grid-cols-11 lg:grid-rows-1 sm:grid-cols-6 grid-rows-2 gap-y-4" >
+                
                 {/**Angular */}
                 <svg className="w-10 h-10" viewBox="-8 0 272 272" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0" />
@@ -81,7 +82,10 @@ export default function Skills() {
                 </svg>
 
             </div>
-            <div className="flex flex-row gap-8">Backend
+            
+            
+            Back-End
+            <div className="grid grid-cols-4 gap-8 lg:grid-cols-7 lg:grid-rows-1  ">
                 {/**Python */}
                 <svg className="w-10 h-10" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd" d="M13.0164 2C10.8193 2 9.03825 3.72453 9.03825 5.85185V8.51852H15.9235V9.25926H5.97814C3.78107 9.25926 2 10.9838 2 13.1111L2 18.8889C2 21.0162 3.78107 22.7407 5.97814 22.7407H8.27322V19.4815C8.27322 17.3542 10.0543 15.6296 12.2514 15.6296H19.5956C21.4547 15.6296 22.9617 14.1704 22.9617 12.3704V5.85185C22.9617 3.72453 21.1807 2 18.9836 2H13.0164ZM12.0984 6.74074C12.8589 6.74074 13.4754 6.14378 13.4754 5.40741C13.4754 4.67103 12.8589 4.07407 12.0984 4.07407C11.3378 4.07407 10.7213 4.67103 10.7213 5.40741C10.7213 6.14378 11.3378 6.74074 12.0984 6.74074Z" fill="url(#paint0_linear_87_8204)" />
@@ -174,7 +178,9 @@ export default function Skills() {
                     />
                 </svg>
             </div>
-            <div className="flex flex-row gap-12">Databases  ORMs
+
+            <center>Databases  ORMs</center>
+            <div className="grid grid-cols-5 gap-8">
                 {/**PostGres */}
                 <svg className="w-10 h-10" viewBox="-4 0 264 264" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
                     <g>
@@ -227,7 +233,8 @@ export default function Skills() {
                     <path d="M828.5 486.7h-95.8V308.5h-57.4V534h153.2zm-298.6 53.4c14.1 0 27.2-2 39.1-5.8l13.3 20.3h53.3L607.9 511c21.1-20 33-51.1 33-89.8 0-73.3-43.3-118.8-110.9-118.8s-111.2 45.3-111.2 118.8c-.1 73.7 43 118.9 111.1 118.9zm0-190c31.6 0 52.7 27.7 52.7 71.1 0 16.7-3.6 30.6-10 40.5l-5.2-6.9h-48.8L542 491c-3.9.9-8 1.4-12.2 1.4-31.7 0-52.8-27.5-52.8-71.2.1-43.6 21.2-71.1 52.9-71.1z" />
                 </svg>
             </div>
-            <div className="flex flex-row gap-12">CI/CD
+            <center>CI/CD</center>
+            <div className="grid grid-cols-4 gap-y-1">
 
                 {/**GitHub */}
 
@@ -253,7 +260,7 @@ export default function Skills() {
                     </g>
                 </svg>
             </div>
-        </div>
+        </article>
 
     )
 }
