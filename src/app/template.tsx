@@ -1,6 +1,6 @@
 "use client"
 import { motion , AnimatePresence } from "framer-motion"
-
+import { templateDiv } from "./templateDiv"
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
   enter: { opacity: 1, x: 0, y: 0 },
@@ -14,13 +14,8 @@ export default function Template({ children }: { children: React.ReactNode }) {
       animate="enter"
       transition={{ type: "linear" }}
     >
-      <motion.div  animate={{
-    x: 0, y:0,
-    position: "fixed",
     
-  }} >
-      {children}
-      </motion.div>
-    </motion.main>
+       {children}
+      </motion.main>
     )
   }
