@@ -4,14 +4,15 @@ return (
   <article className="items-center content-center justify-center">
 <div className="p-10 flex flex-col content-center items-center justify-center gap-12">
 
-  <div className="flex flex-rows border-r-white text-5xl  ">
+  <section className="flex flex-rows border-r-white text-5xl content-center justify-center ">
     <h4 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Hey there</h4> 
 <span className="animate-wave inline-block">👋 </span> 
-  </div>
+  </section>
+  <section className="flex flex-col border-r-white text-4xl content-center justify-center items-center gap-6">
   <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">I'm Ingila.</p>
   <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">I am a full stack developer.</p> 
-  <p className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">I like to build websites, design UI/UX, APIs and all things coding.</p>
-
+  <p className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">I like to build websites, design UI/UX, APIs and all things coding.</p>
+  </section>
 
 {/*  <div className="w-max">
   <h1 className="border-r-white pr-5 text-5xl  font-bold">I'm a </h1>
