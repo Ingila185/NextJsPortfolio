@@ -6,7 +6,7 @@ export default function Projects()
     return (
 
 
-        <div className='p-10 grid grid-cols-3 md:grid-cols-1  sm:grid-cols-1 '>
+        <div className='p-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 '>
 
         {projects.map((exp,idx) =>
         
