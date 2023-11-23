@@ -8,7 +8,7 @@ export default function App({ Component, pageProps } : any) {
   return ( 
     <Template>
       
-  <main className='flex flex-col items-left justify-center'> 
+  <main className='min-h-screen w-full'> 
 <ThemeProvider attribute='class'>
   <NavBar />
   <Component {...pageProps} /> 

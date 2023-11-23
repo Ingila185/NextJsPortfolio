@@ -13,9 +13,10 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
     <body >
-    <ThemeProvider attribute='class'>
+    <ThemeProvider attribute='class' defaultTheme='light'>
+    <main className=' min-h-screen min-w-screen ' >
     <NavBar />
-    <main className='md: container md:mx-auto'>
+
         {children}
         </main>
       </ThemeProvider>   

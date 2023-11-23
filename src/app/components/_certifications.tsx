@@ -16,7 +16,7 @@ export default function Certifications()
 <div key = {idx} className="py-2">
       <h2>
         <button
-          className="flex items-center justify-between w-full text-left font-semibold py-2"
+          className="flex items-center justify-between w-full text-left font-semibold"
           onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
           aria-expanded={accordionOpen}
           aria-controls={idx.toString()}
@@ -32,9 +32,9 @@ export default function Certifications()
         id= {idx.toString()}
         role="region"
         aria-labelledby={`accordion-title-01`}
-        className={`grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out ${accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
+        className={`grid text-sm text-slate-600 overflow-wrap` }
       >
-        <div className="overflow-hidden">
+        <div className="">
             <ul>    
             { cert.courses.map((course, idx)=>
 
