@@ -10,7 +10,7 @@ export default function NavBar()
 return (
  <nav className="flex flex-wrap bg-white border-gray-200 dark:bg-gray-900 ">
   <div className="max-h-screen items-center justify-between mx-auto">
-  <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+  <div className="flex md:order-last space-x-3 md:space-x-0 rtl:space-x-reverse">
   <button className="rounded-lg px-3 py-2   font-medium hover:bg-slate-100 hover:text-slate-900" onClick={(e) => {setTheme(theme === 'dark' ? 'light' : 'dark')}}>
       { theme === 'light' ? 
         (<svg id="theme-toggle-dark-icon" className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg> )
