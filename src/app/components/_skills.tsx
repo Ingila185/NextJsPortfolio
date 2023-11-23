@@ -1,7 +1,7 @@
 export default function Skills() {
     return (
         <div className="p-10 grid grid-cols-1 gap-8 md: grid-cols-1 ">
-            <div className="box-content flex flex-row gap-8">
+            <div className="grid grid-cols-12 gap-8 md: grid grid-cols-12 grid-rows-1" >
                 Frontend
                 {/**Angular */}
                 <svg className="w-10 h-10" viewBox="-8 0 272 272" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000">
