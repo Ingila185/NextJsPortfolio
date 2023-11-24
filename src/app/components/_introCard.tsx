@@ -1,14 +1,14 @@
 export default function IntroCard() {
   var names = ['Full Stack Developer','Designer','Architect', 'Web 3.0 Enthusiast'];
 return (
-  <article className="items-center align-center content-center justify-center sm:text-sm md:text-base lg:text-lg sm:justify-left">
-<div className="p-10 flex flex-col content-center items-center justify-center gap-12">
+  <article className="items-center  align-center content-center justify-center sm:text-sm md:text-base lg:text-lg sm:justify-left">
+<div className="p-10 flex flex-col text-center content-center items-center justify-center gap-12">
 
   <section className="flex flex-rows border-r-white text-5xl content-center justify-center ">
     <h4 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-400">Hey there</h4> 
 <span className="animate-wave inline-block">👋 </span> 
   </section>
-  <section className="flex flex-col border-r-white text-4xl content-center justify-center items-center gap-6">
+  <section className="flex flex-col border-r-white text-3xl content-center justify-center items-center gap-6">
   <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">I'm Ingila.</p>
   <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">I am a full stack developer.</p> 
   <p className=" text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">I like to build websites, design UI/UX, APIs and all things coding.</p>
