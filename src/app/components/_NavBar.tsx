@@ -24,8 +24,6 @@ return (
     </button>
     </div>
   <div hidden = {!isNavOpen} className="items-right  w-full md:flex  md:w-auto md:order-1" id="navbar-cta">
- 
-
     <ul className="flex flex-row font-medium lg:flex-row md:flex-col sm:flex-col md:p-0 mt-4 border border-gray-100 
     rounded-lg bg-gray-50 
      md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-1 md:bg-white dark:bg-gray-800
