@@ -8,13 +8,13 @@ export default function NavBar()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
 return (
- <nav className="p-5 flex flex-row flex-wrap  items-left content-left">
+ <nav className="pt-10 px-10 flex flex-wrap mx-auto items-left content-left">
 
 
   {/*Hamburger + Menu*/}
   <div className="flex flex-row items-right content-right">
     {/*Hamburger Menu*/}
-  <div className="flex flex-row flex-wrap md:order-last ">
+  <div className="flex flex-row md:order-last ">
       <button onClick={(e) => { e.preventDefault(); setIsNavOpen(!isNavOpen);}}
          data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-left 
       p-2 w-10 h-10 justify-left text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100
