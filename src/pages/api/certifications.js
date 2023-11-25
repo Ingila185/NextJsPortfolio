@@ -129,7 +129,7 @@ export    const certifications = [
         "issuingOrganization": "CoursEra",
         "url" : "#",
         "date" : "Aug 2023",
-        "logo":"IBM.png",
+        "logo":"IBM.svg",
         "credentials"  :"LKSJJGSSGFX",
         "courses":[
           /*  {

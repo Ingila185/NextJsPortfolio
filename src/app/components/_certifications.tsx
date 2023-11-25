@@ -15,7 +15,7 @@ export default function Certifications()
 
 <div key = {idx} className="max-w-screen  rounded overflow-hidden shadow-lg bg-gradient-to-t from-gray-900 to-slate-500 ">
 <a target='_blank' href= {cert.url}>
-<img className="w-full p-10" src={cert.logo} alt="Certifications" />
+<img className="w-full" src={cert.logo} alt="Certifications" />
 </a>
 <div className="px-6 py-4">
   <div className="font-bold text-md sm-2">{cert.name}</div>

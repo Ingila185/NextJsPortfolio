@@ -7,18 +7,20 @@ export const navLinks =
         "name":"Experience",
         "path":"/experience"
 
-    },{
+    },
+    {
+        "name":"Certifications",
+        "path":"/certifications"
+
+    },
+   
+    {
         "name":"Skills",
         "path":"/skills"
 
     },{
         "name":"Projects",
         "path":"/projects"
-
-    },
-    {
-        "name":"Certifications",
-        "path":"/certifications"
 
     },
     {

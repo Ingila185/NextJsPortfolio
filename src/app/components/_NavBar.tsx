@@ -1,19 +1,23 @@
 import { useTheme} from 'next-themes'
 import Link from 'next/link'
 import { useState } from "react"; // import state
-
+import {navLinks} from '../../pages/api/navLinks';
 export default function NavBar()
 {
   const {theme, setTheme} = useTheme()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
 return (
- <nav className="flex bg-transparent dark:bg-transparent ">
-  <div className="flex flex-row items-left justify-between mx-auto">
-  <div className="flex flex-row md:order-last rtl:space-x-reverse">
+ <nav className="p-5 flex flex-row-reverse  items-left content-left">
+
+
+  {/*Hamburger + Menu*/}
+  <div className="flex flex-row items-right content-right">
+    {/*Hamburger Menu*/}
+  <div className="flex flex-row md:order-last ">
       <button onClick={(e) => { e.preventDefault(); setIsNavOpen(!isNavOpen);}}
          data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-left 
-      p-2 w-10 h-10 justify-left text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100
+      p-2 w-10 h-10 justify-left text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100
        focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400
         dark:hover:bg-transparent dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false"   
         >
@@ -22,68 +26,22 @@ return (
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
         </svg>
     </button>
-    </div>
+  </div>
+
+  {/**Menu Items */}
   <div hidden = {!isNavOpen} className="items-right  w-auto md:flex  md:w-auto md:order-1" id="navbar-cta">
-    <ul className="flex flex-row font-medium lg:flex-row  md:p-0 mt-4  
+    <ul  className="flex flex-row font-medium  md:p-0 mt-4  
     rounded-lg bg-transparent 
-     md:space-x-8 rtl:space-x-reverse md:mt-0 md:border md:bg-transparent dark:bg-transparent
-     md:dark:bg-transparent dark:border-transparent " >
-      <li>
-        <a href="/" className="block py-2 px-3 md:p-2 sm:p-2  text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 d:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-transparent">
-          Home</a>
-      </li>
-     
-      <li>
-        <a href="/experience" className="block py-2 px-3 md:p-2 sm:p-2  text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 d:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Experience</a>
-      </li>
-      
-      <li>
-        <a href="/certifications" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Certifications</a>
-      </li>
-      <li>
-        <a href="/skills" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Skills</a>
-      </li>
+     md:space-x-8 rtl:space-x-reverse md:mt-0 
+     " >
 
-      <li>
-        <a href="/projects" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Projects</a>
-      </li>
-
-
-      <li>
-        <a href="CVIngilaEjazSC.pdf" target = "_blank" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Resume</a>
-      </li>
-
-      <li>
-        <a href="/contact" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Contact</a>
-      </li>
-
-      <li>
-        <a href="#" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Blog</a>
-      </li>
-      <li>
+  {navLinks.map((link, idx)=>
+  <li key = {idx} className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
+  md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
+  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+    <a href = {link.path}>{link.name}</a>
+  </li>)}
+<li>
       <button className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
         md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
         dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" onClick={(e) => {setTheme(theme === 'dark' ? 'light' : 'dark')}}>
