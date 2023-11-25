@@ -50,7 +50,7 @@ export const workExperience =
         "from":"Jan 2016",
         "to":"Jul 2016",
         "url":"https://efulife.com/",
-        "logo":"efulife.jpg",
+        "logo":"efuLife.jpg",
         "desc" : [
             "Developed ticketing queue solution including mobile app, client web app and agent web app for walk-in clients resulting in 60% improved customer experience.",
             "Developed portals for clients and Branches, providing policy related information like policy status, premium payments, claim submission and beneficiary and performed data operations resulting in effective policy processing."
@@ -63,7 +63,7 @@ export const workExperience =
         "from":"Jan 2014",
         "to":"Dec 2015",
         "url":"https://efulife.com/",
-        "logo":"efulife.jpg",
+        "logo":"efuLife.jpg",
 
         "desc" : [
             "Developed portals for sales consultants and Bancassurance aimed to automate operations by 100%.",
@@ -78,7 +78,7 @@ export const workExperience =
         "from":"Jul 2013",
         "to":"Dec 20113",
         "url":"https://efulife.com/",
-        "logo":"efulife.jpg",
+        "logo":"efuLife.jpg",
 
         "desc" : [
         "Added robust reports in Insurance Illustration software on .NET and formatting of Crystal reports according to business requirements. ",
