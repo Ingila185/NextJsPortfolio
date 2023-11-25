@@ -8,7 +8,7 @@ export default function NavBar()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
 return (
- <nav className="p-5 flex flex-row-reverse  items-left content-left">
+ <nav className="p-5 flex flex-row-reverse flex-nowrap  items-left content-left">
 
 
   {/*Hamburger + Menu*/}
