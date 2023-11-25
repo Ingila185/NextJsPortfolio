@@ -5,13 +5,13 @@ return (
 <div className="p-10 flex flex-col text-center content-center items-center justify-center gap-12">
 
   <section className="flex flex-rows border-r-white text-5xl content-center justify-center ">
-    <h4 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-400">Hey there</h4> 
+    <h4 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-blue-800">Hey there</h4> 
 <span className="animate-wave inline-block">👋 </span> 
   </section>
   <section className="flex flex-col border-r-white text-3xl content-center justify-center items-center gap-6">
-  <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">I'm Ingila.</p>
-  <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">I am a full stack developer.</p> 
-  <p className=" text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">I like to build websites, design UI/UX, APIs and all things coding.</p>
+  <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-purple-600">I'm Ingila.</p>
+  <p className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-teal-600">I am a full stack developer.</p> 
+  <p className=" text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-green-600">I like to build websites, design UI/UX, APIs and all things coding.</p>
   </section>
 
 {/*  <div className="w-max">
@@ -29,7 +29,7 @@ return (
 
 
 <a href = '#' target = "_blank">
-<svg xmlns="http://www.w3.org/2000/svg" shapeRendering="geometricPrecision" className="w-10 h-10"
+<svg xmlns="http://www.w3.org/2000/svg" shapeRendering="geometricPrecision" className="w-10 h-10 "
  textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd"
   viewBox="0 0 512 388.049"><path fill="#5865F2" fillRule="nonzero"
   d="M433.713 32.491A424.231 424.231 0 00328.061.005c-4.953 8.873-9.488 18.156-13.492 27.509a393.937 393.937 0 00-58.629-4.408c-19.594 0-39.284 1.489-58.637 4.37-3.952-9.33-8.543-18.581-13.525-27.476-36.435 6.212-72.045 17.196-105.676 32.555-66.867 98.92-84.988 195.368-75.928 290.446a425.967 425.967 0 00129.563 65.03c10.447-14.103 19.806-29.116 27.752-44.74a273.827 273.827 0 01-43.716-20.862c3.665-2.658 7.249-5.396 10.712-8.055 40.496 19.019 84.745 28.94 129.514 28.94 44.77 0 89.019-9.921 129.517-28.943 3.504 2.86 7.088 5.598 10.712 8.055a275.576 275.576 0 01-43.796 20.918 311.49 311.49 0 0027.752 44.705 424.235 424.235 0 00129.65-65.019l-.011.011c10.632-110.26-18.162-205.822-76.11-290.55zM170.948 264.529c-25.249 0-46.11-22.914-46.11-51.104 0-28.189 20.135-51.304 46.029-51.304 25.895 0 46.592 23.115 46.15 51.304-.443 28.19-20.336 51.104-46.069 51.104zm170.102 0c-25.29 0-46.069-22.914-46.069-51.104 0-28.189 20.135-51.304 46.069-51.304s46.472 23.115 46.029 51.304c-.443 28.19-20.296 51.104-46.029 51.104z"/>

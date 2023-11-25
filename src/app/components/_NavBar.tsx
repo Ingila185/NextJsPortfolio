@@ -8,14 +8,14 @@ export default function NavBar()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
 return (
- <nav className="flex bg-white border-gray-200 dark:bg-gray-900 ">
-  <div className="items-left justify-between mx-auto">
-  <div className="flex md:order-last space-x-3 md:space-x-2 rtl:space-x-reverse">
+ <nav className="flex bg-transparent dark:bg-transparent ">
+  <div className="flex flex-row items-left justify-between mx-auto">
+  <div className="flex flex-row md:order-last rtl:space-x-reverse">
       <button onClick={(e) => { e.preventDefault(); setIsNavOpen(!isNavOpen);}}
-         data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center 
-      p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100
+         data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-left 
+      p-2 w-10 h-10 justify-left text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100
        focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400
-        dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false"   
+        dark:hover:bg-transparent dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false"   
         >
         <span className="sr-only">Open main menu</span>
         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -23,15 +23,15 @@ return (
         </svg>
     </button>
     </div>
-  <div hidden = {!isNavOpen} className="items-right  w-full md:flex  md:w-auto md:order-1" id="navbar-cta">
-    <ul className="flex flex-row font-medium lg:flex-row md:flex-col sm:flex-col md:p-0 mt-4 border border-gray-100 
-    rounded-lg bg-gray-50 
-     md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-1 md:bg-white dark:bg-gray-800
-     md:dark:bg-gray-900 dark:border-gray-700 " >
+  <div hidden = {!isNavOpen} className="items-right  w-auto md:flex  md:w-auto md:order-1" id="navbar-cta">
+    <ul className="flex flex-row font-medium lg:flex-row  md:p-0 mt-4  
+    rounded-lg bg-transparent 
+     md:space-x-8 rtl:space-x-reverse md:mt-0 md:border md:bg-transparent dark:bg-transparent
+     md:dark:bg-transparent dark:border-transparent " >
       <li>
         <a href="/" className="block py-2 px-3 md:p-2 sm:p-2  text-gray-900 rounded hover:bg-gray-100 
         md:hover:bg-transparent md:hover:text-gray-700 d:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-transparent">
           Home</a>
       </li>
      
@@ -40,6 +40,13 @@ return (
         md:hover:bg-transparent md:hover:text-gray-700 d:dark:hover:text-gray-500 dark:text-white 
         dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
           Experience</a>
+      </li>
+      
+      <li>
+        <a href="/certifications" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
+        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
+        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+          Certifications</a>
       </li>
       <li>
         <a href="/skills" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
@@ -55,12 +62,6 @@ return (
           Projects</a>
       </li>
 
-      <li>
-        <a href="/certifications" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
-        md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
-        dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-          Certifications</a>
-      </li>
 
       <li>
         <a href="CVIngilaEjazSC.pdf" target = "_blank" className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 

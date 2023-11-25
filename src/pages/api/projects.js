@@ -64,7 +64,7 @@ export const projects =
     {
         "name":"EFU Life Hemayah Portal",
         "url":"http://clients.efuhemayahtakaful.com/",
-        "desc": "RemitHBL is a payment solution developed in-house by HBL to facilitate cross-border payments. The solution is currently serving 2.7M users worldwide and is used to send/receive remittances from across the world. ",
+        "desc": "Portal for EFU Life insurance Hemayah policy holders providing policy related information like policy status, premium payments, claim submission and beneficiary management.",
         "tools":
         {
             "Frontend": "HTML5 CSS3 Bootstrap Jquery Ajax JSON",
@@ -76,7 +76,7 @@ export const projects =
     {
         "name":"EFU Life PRIMUS Portal",
         "url": "https://primus.efulife.com/http://clients.efuhemayahtakaful.com/",
-        "desc": "RemitHBL is a payment solution developed in-house by HBL to facilitate cross-border payments. The solution is currently serving 2.7M users worldwide and is used to send/receive remittances from across the world. ",
+        "desc": "Portal for EFU Life Islamic insurance  policy holders providing policy related information like policy status, premium payments, claim submission and beneficiary management.",
         "tools":
         {
             "Frontend": "HTML5 CSS3 Bootstrap Jquery Ajax JSON",
@@ -100,7 +100,7 @@ export const projects =
     {
         "name":"Django REST Framework Capstone",
         "url": "https://github.com/Ingila185/DjangoRestFrameworkAPI.git",
-        "desc": "RemitHBL is a payment solution developed in-house by HBL to facilitate cross-border payments. The solution is currently serving 2.7M users worldwide and is used to send/receive remittances from across the world. ",
+        "desc": "Meta Backend Developer Specialization Capstone Project.",
         "tools":
         {
             "Frontend": "HTML5 CSS3 Bootstrap Jquery Ajax JSON",

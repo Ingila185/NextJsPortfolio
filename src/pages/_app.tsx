@@ -6,7 +6,7 @@ import { AnimatePresence } from 'framer-motion';
 export default function App({ Component, pageProps } : any) {
   return ( 
     <Template>
-  <ThemeProvider attribute='class'>    
+  <ThemeProvider attribute='class' defaultTheme='dark'>    
   <NavBar />
   <Component {...pageProps} />
   </ThemeProvider>
