@@ -2,7 +2,7 @@ export default function Skills() {
     return (
         <article className="p-10 flex flex-col justify-center items-center gap-6 font-extrabold underline ">
             Front-End
-            <div className="grid grid-cols-3 gap-8 lg:grid-cols-11 lg:grid-rows-1 sm:grid-cols-3 md:grid-cols-3  gap-y-4" >
+            <div className="grid grid-cols-2 gap-8 lg:grid-cols-11 lg:grid-rows-1 sm:grid-cols-3 md:grid-cols-3  gap-y-4" >
                 
                 {/**Angular */}
                 <a  className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4
@@ -95,12 +95,12 @@ export default function Skills() {
                         </path>
                     </g>
                 </svg></a>
-
+                {/**Figma */}
             </div>
             
             
             Back-End
-            <div className="grid grid-cols-3 gap-8 lg:grid-cols-7 lg:grid-rows-1 md:grid-cols-3 sm:grid-cols-3  ">
+            <div className="grid grid-cols-2 gap-8 lg:grid-cols-7 lg:grid-rows-1 md:grid-cols-3 sm:grid-cols-3  ">
                 {/**Python */}
                 <a  className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                
@@ -206,7 +206,7 @@ export default function Skills() {
             </div>
 
             <center>Databases  ORMs</center>
-            <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-3">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-3">
                 {/**PostGres */}
                 <a  className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                
@@ -269,7 +269,7 @@ export default function Skills() {
                 </svg></a>
             </div>
             <center>CI/CD</center>
-            <div className="grid grid-cols-3 gap-8 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
 
                 {/**GitHub */}
                 <a  className="inline-flex justify-center hover:text-gray-900 items-center 
