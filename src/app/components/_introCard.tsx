@@ -20,7 +20,7 @@ return (
 </div>*/ }
 
    
-<div className="flex flex-row gap-8 sm:flex-nowrap">
+<div className="flex flex-row gap-8 sm:px-10 ">
 {/**Discord2 */}
 
 
