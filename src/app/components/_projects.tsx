@@ -8,7 +8,7 @@ export default function Projects()
 
         {projects.map((exp,idx) =>
         
-            <div key = {idx} className = "p-3 m-2  box-content border-2 rounded-lg border-gray-500/100">
+            <div key = {idx} className = "p-3 m-2  box-content border-2 rounded-lg border-gray-500/100 hover:scale-110 duration-300">
              <h1 className='hover:underline'><b>{exp.name}</b></h1>   
              <p>{exp.desc}</p> 
              <a href={exp.url} className="inline-flex items-center text-blue-600 hover:underline">

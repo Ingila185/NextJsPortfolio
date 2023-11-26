@@ -12,7 +12,7 @@ export default function Experience()
 {
 workExperience.map(( exp, idx ) => (
  
-<div key = {idx} className="max-w-screen  rounded  shadow-lg bg-gradient-to-t from-slate-700 to-slate-800">
+<div key = {idx} className="max-w-screen  rounded border shadow-lg bg-gradient-to-t from-slate-700 to-slate-800 hover:scale-110 duration-300">
 <a href = {exp.url} target = "_blank">
 <img className="w-full p-5" src={exp.logo} alt="Experience" />
 </a>
