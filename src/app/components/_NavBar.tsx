@@ -1,7 +1,7 @@
 import { useTheme} from 'next-themes'
 import Link from 'next/link'
 import { useState } from "react"; // import state
-import {navLinks} from '../../pages/api/navLinks';
+import {navLinks} from '../api/navLinks';
 export default function NavBar()
 {
   const {theme, setTheme} = useTheme()

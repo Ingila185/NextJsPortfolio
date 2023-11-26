@@ -1,7 +1,7 @@
 import experience from "@/app/experience/page";
 import { useState, useEffect } from 'react'
 import Accordion from "./_accordion";
-import {workExperience} from '../../pages/api/experience';
+import {workExperience} from '../api/experience';
 import { workerData } from "worker_threads";
 export default function Experience()
 {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import {certifications} from '../../pages/api/certifications';
+import {certifications} from '../api/certifications';
 export default function Certifications()
 {
     return (

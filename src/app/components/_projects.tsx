@@ -1,4 +1,4 @@
-import {projects} from '../../pages/api/projects';
+import {projects} from '../api/projects';
 
 export default function Projects()
 {
