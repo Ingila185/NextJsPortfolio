@@ -8,16 +8,16 @@ export default function NavBar()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
 return (
- <nav className="pt-10 px-10 flex bg-transparent">
+ <nav className="pt-10 px-10 flex bg-transparent overflow-hidden">
 
 
   {/*Hamburger + Menu*/}
-  <div className="flex flex-row items-left justify-between mx-auto">
-    {/*Hamburger Menu*/}
-  <div className="flex flex-row md:order-last rtl:space-x-reverse ">
-      <button onClick={(e) => { e.preventDefault(); setIsNavOpen(!isNavOpen);}}
+  <div className="flex  items-left justify-between mx-auto ">
+    {/*Hamburger Div*/}
+  <div className="flex  md:order-last rtl:space-x-reverse ">
+      <button onClick={(e) => { e.preventDefault(); setIsNavOpen(!isNavOpen); console.log(isNavOpen)}}
          data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-left 
-      p-2 w-10 h-10 justify-left text-sm text-gray-500 rounded-lg lg:hidden md:hidden hover:bg-gray-100
+      p-2 w-10 h-10 justify-left text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100
        focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400
         dark:hover:bg-transparent dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false"   
         >
@@ -29,8 +29,8 @@ return (
   </div>
 
   {/**Menu Items */}
-  <div hidden = {!isNavOpen} className="items-right  w-auto flex flex-row flex-wrap" id="navbar-cta">
-    <ul  className="flex flex-row font-medium  md:p-0 mt-4  
+  <div hidden = {!isNavOpen} className="w-auto flex flex-wrap items-right  w-full  " id="navbar-cta">
+    <ul  className="flex font-medium  md:p-0 mt-4  
     rounded-lg bg-transparent 
      md:space-x-8 rtl:space-x-reverse md:mt-0 
      " >

@@ -2,12 +2,6 @@ import { useState, useEffect } from 'react'
 import {certifications} from '../../pages/api/certifications';
 export default function Certifications()
 {
-    const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
-    useEffect(() => {
-        setAccordionOpen(false)
-      }, [])
-    
-
     return (
 <div className='p-10 mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 m-8 gap-6 '>
 
