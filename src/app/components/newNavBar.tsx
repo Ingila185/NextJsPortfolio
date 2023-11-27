@@ -24,11 +24,12 @@ return (
       </button>  
     </div>
 
-    <ul className="hidden md:flex">
+    <ul className="hidden md:flex text-black ">
       {navLinks.map((link, idx ) => (
         <li
           key={idx}
-          className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 hover:text-white duration-200 link-underline"
+          className="nav-links px-4 cursor-pointer capitalize font-medium dark:text-gray-300 
+          hover:scale-105 dark:hover:text-white duration-200 link-underline"
         >
           <Link href={link.path}>{link.name}</Link>
         </li>
@@ -45,7 +46,8 @@ return (
     </div>
 
     {nav && (
-      <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+      <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
+      bg-gradient-to-b from-black to-gray-800 text-gray-500">
         {navLinks.map((link, idx) => (
           <li
             key={idx}
