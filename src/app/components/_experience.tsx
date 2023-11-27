@@ -27,7 +27,7 @@ workExperience.map(( exp, idx ) => (
     </div>
   <ul className="text-gray-200 text-base text-sm">
    {exp.desc.map((role, idx)=>
-   <li key = {idx}>{role}</li>
+   <li className = "list-disc" key = {idx}>{role}</li>
    )}  </ul>
 </div>
 {/*<div className="px-6 pt-4 pb-2">
