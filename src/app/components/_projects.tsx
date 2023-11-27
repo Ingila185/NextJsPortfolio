@@ -7,7 +7,7 @@ export default function Projects()
         <div className='p-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 '>
 
         {projects.map((exp,idx) =>            
-            <div key = {idx} className = "p-3 m-2 text-lg box border-2 rounded-lg border-gray-500/100 dark:bg-gradient-to-b bg-to-slate-800  hover:scale-110 duration-300">
+            <div key = {idx} className = "p-3 m-2 text-lg box border-2 rounded-lg border-gray-500/100 dark:bg-gradient-to-b to-slate-800  hover:scale-110 duration-300">
              <h1 className='hover:underline'><b>{exp.name}</b></h1> 
              <div className='box-content'>  
              <p className='text-sm'>{exp.desc}</p> 

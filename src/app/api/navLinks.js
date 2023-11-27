@@ -35,7 +35,7 @@ export const navLinks =
     },
     {
         "name":"Blog",
-        "path":"#"
+        "path":"/blog"
 
     }
 ]
