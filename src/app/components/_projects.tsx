@@ -11,7 +11,7 @@ export default function Projects()
              <h1 className='hover:underline'><b>{exp.name}</b></h1> 
              <div className='box-content'>  
              <p className='text-sm'>{exp.desc}</p> 
-             <a href={exp.url} className="inline-flex items-center text-sm text-blue-600 hover:underline">
+             <a href={exp.url} target = "_blank" className="inline-flex items-center text-sm text-blue-600 hover:underline">
         Learn More
         <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" 
         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
