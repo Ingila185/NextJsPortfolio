@@ -13,7 +13,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className = "dark">
     <body className='dark:bg-gradient-to-b from-black via-gray-950 to-gray-700'>
-    <ThemeProvider attribute='class' defaultTheme='light'>
+    <ThemeProvider attribute='class' defaultTheme='dark'>
     <main className=' min-h-screen min-w-screen ' >
     <NewNavBar />
     <div className='p-10'>
