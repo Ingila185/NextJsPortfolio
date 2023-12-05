@@ -76,6 +76,13 @@ export default function IntroCardJumbotron() {
                         </svg>
                     </a>
                 </div>
+                <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 lg:px-48">
+                    I am also a Web3.0 enthusiast and participating in a Hackathon called 
+                   <a className="text-blue-500" href = "https://constellation-hackathon.devpost.com/" target = "_blank">
+                         Constellation</a>. Here's what we are developing <a className="text-blue-500" target = "_blank" href = "https://devpost.com/software/bridge-hop">
+                            Bridge Hop
+                            </a></p>
+                
             </div>
         </section>
 
