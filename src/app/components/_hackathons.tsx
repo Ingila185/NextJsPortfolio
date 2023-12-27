@@ -5,7 +5,7 @@ export default function Hackathons()
     return (
         <div className="p-10 flex flex-col gap-10">
             <a target = "_blank" href="https://constellation-hackathon.devpost.com/">
-            <img src = 'constellation.png'/>
+            <img src = 'constellation.PNG'/>
             </a>
             <p>
             I recently participated in Constellation where I, along 
