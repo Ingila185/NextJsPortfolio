@@ -17,7 +17,7 @@ export default function Certifications()
 <img className="w-full" src={cert.logo} alt="Certifications" />
 </a>
 <div className="px-6 py-4">
-  <div className="font-bold text-md sm-2">{cert.name}</div>
+  <div className="font-bold text-md sm-2 underline">{cert.name}</div>
 </div>
 <div className="px-6 pt-4 pb-2">
   {cert.courses.map((course,idx)=>

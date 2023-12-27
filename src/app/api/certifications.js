@@ -216,5 +216,49 @@ export    const certifications = [
 
         ]
     
+    },
+
+    {
+        "name":"Hackerrank JavaScript Assessment",
+        "issuingOrganization": "Hackerrank",
+        "url" : "https://www.hackerrank.com/certificates/ca128f4b163f",
+        "date" : "Aug 2023",
+        "logo":"hackerrank.png",
+        "credentials"  :"",
+        "courses":[
+            {
+                "name":"",
+                "url":"#",
+                "tag":"JavaScript ES6+"
+            },{
+                "name":"",
+                "url":"#",
+                "tag":"Web Development"
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Hackerrank"
+            },
+
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Skills Assessment"
+
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"React"
+
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Full Stack Development"
+
+            }
+        ]
     }
 ]

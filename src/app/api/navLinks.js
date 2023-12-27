@@ -24,6 +24,11 @@ export const navLinks =
 
     },
     {
+        "name":"Hackathons",
+        "path":"/hackathons"
+
+    },
+    {
         "name":"Resume",
         "path":"/CVIngilaEjazSC.pdf"
 

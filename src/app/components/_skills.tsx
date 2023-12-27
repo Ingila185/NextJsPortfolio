@@ -5,7 +5,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-8 lg:grid-cols-12 lg:grid-rows-1 sm:grid-cols-3 md:grid-cols-3  gap-y-4" >
                 
                 {/**Angular */}
-                <a  className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4
+                <a  className=" inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4
              text-base font-medium text-center text-white rounded-lg border border-white
               hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                 <svg className="w-10 h-10" viewBox="-8 0 272 272" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000">
