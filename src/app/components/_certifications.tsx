@@ -12,12 +12,19 @@ export default function Certifications()
 
     { certifications.map((cert, idx)=>
 
-<div key = {idx} className="max-w-screen  border  rounded overflow-hidden shadow-lg bg-gradient-to-t from-gray-900 to-slate-500 ">
+<div key = {idx} className="max-w-screen  border  rounded overflow-hidden 
+shadow-lg bg-gradient-to-t from-gray-900 to-slate-500 ">
 <a target='_blank' href= {cert.url}>
+
 <img className="w-full" src={cert.logo} alt="Certifications" />
 </a>
 <div className="px-6 py-4">
-  <div className="font-bold text-md sm-2 underline">{cert.name}</div>
+  <div className="font-bold text-md sm-2 underline">
+  <a target='_blank' href= {cert.url}>
+
+    {cert.name}
+</a>    
+    </div>
 </div>
 <div className="px-6 pt-4 pb-2">
   {cert.courses.map((course,idx)=>
