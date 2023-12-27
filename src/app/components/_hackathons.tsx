@@ -10,9 +10,9 @@ export default function Hackathons()
             <p>
             I recently participated in Constellation where I, along 
 with developers from the US, UK and Nigeria developed a 
-decentralized finance (DeFi) app
+decentralized finance (DeFi) app using Next.js14, React, TailwindCSS, and Solidity.
 <a href="https://devpost.com/software/bridge-hop" target = "_blank" className="inline-flex items-center text-sm text-blue-600 hover:underline">
-Bridge Hop
+Find out more here
         <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" 
         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
             <path stroke="currentColor" strokeLinecap="round"
