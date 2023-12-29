@@ -18,7 +18,7 @@ shadow-lg bg-gradient-to-t from-gray-900 to-slate-500 ">
 
 <img className="w-full" src={cert.logo} alt="Certifications" />
 </a>
-<div className="px-6 py-4">
+<div className="px-6 py-2">
   <div className="font-bold text-md sm-2 underline">
   <a target='_blank' href= {cert.url}>
 

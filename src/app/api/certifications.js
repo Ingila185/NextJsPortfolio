@@ -260,5 +260,49 @@ export    const certifications = [
 
             }
         ]
+    },
+
+    {
+        "name":"Hackerrank Python Assessment",
+        "issuingOrganization": "Hackerrank",
+        "url" : "https://www.hackerrank.com/certificates/f6dfb1b5c03b",
+        "date" : "Dec 2023",
+        "logo":"hackerrank.png",
+        "credentials"  :"",
+        "courses":[
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Python3"
+            },{
+                "name":"",
+                "url":"#",
+                "tag":"API Development"
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Hackerrank"
+            },
+
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Skills Assessment"
+
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Django"
+
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Full Stack Development"
+
+            }
+        ]
     }
 ]
