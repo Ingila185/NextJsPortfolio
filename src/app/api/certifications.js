@@ -304,5 +304,52 @@ export    const certifications = [
 
             }
         ]
+    },
+
+    {
+        "name":"Hackerrank Java Assessment",
+        "issuingOrganization": "Hackerrank",
+        "url" : "https://www.hackerrank.com/certificates/d13515ed1a7a",
+        "date" : "Dec 2023",
+        "logo":"hackerrank.png",
+        "credentials"  :"",
+        "courses":[
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Java"
+            },{
+                "name":"",
+                "url":"#",
+                "tag":"Java Development"
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Hackerrank"
+            },
+
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Java Development Kit"
+
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Microservices"
+
+            },
+            {
+                "name":"",
+                "url":"#",
+                "tag":"Full Stack Development"
+
+            }
+        ]
     }
+
+
+
 ]
