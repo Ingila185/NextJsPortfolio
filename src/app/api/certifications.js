@@ -127,7 +127,7 @@ export    const certifications = [
     {
         "name":"IBM DevOps and Software Engineering Specialization (In Progress)",
         "issuingOrganization": "CoursEra",
-        "url" : "https://www.coursera.org/professional-certificates/devops-and-software-engineering",
+        "url" : "https://coursera.org/share/ab2d88f3cff7c136cab8d2c81a844dfc",
         "date" : "Aug 2023",
         "logo":"ibm.svg",
         "credentials"  :"LKSJJGSSGFX",
