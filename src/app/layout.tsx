@@ -18,7 +18,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     <ThemeProvider attribute='class' defaultTheme='dark'>
     <main className=' min-h-screen min-w-screen ' >
     <NewNavBar />
-    <div className='p-10'>
+    <div className='p-10 dark:text-gray-400'>
             {children}
             </div>
         </main>
