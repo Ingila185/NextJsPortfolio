@@ -4,7 +4,9 @@ export    const certifications = [
         "issuingOrganization": "CoursEra / Meta",
         "url" : "https://coursera.org/share/415672e75f9a2fb3d591e5cd1b6e0cdd",
         "date" : "Aug 2023",
-        "logo":"MetaSvg.svg",
+        "logo":"/MetaSvg.svg",
+        "width":"400",
+        "height":"400",
         "credentials"  :"H3S5H4CAPRMN",
         "courses":[
             {
@@ -65,8 +67,9 @@ export    const certifications = [
         "issuingOrganization": "CoursEra",
         "url" : "https://coursera.org/share/2641cc5ab130fcbb040873a6efcdc1ce",
         "date" : "Sep 2023",
-        "logo":"MetaSvg.svg",
-
+        "logo":"/MetaSvg.svg",
+        "width":"400",
+        "height":"400",
         "credentials"  :"HD9DKSWUK86F",
         "courses":[
             {
@@ -129,7 +132,9 @@ export    const certifications = [
         "issuingOrganization": "CoursEra",
         "url" : "https://coursera.org/share/ab2d88f3cff7c136cab8d2c81a844dfc",
         "date" : "Aug 2023",
-        "logo":"ibm.svg",
+        "logo":"/ibm.svg",
+        "width":"300",
+        "height":"100",
         "credentials"  :"LKSJJGSSGFX",
         "courses":[
           /*  {
@@ -223,7 +228,9 @@ export    const certifications = [
         "issuingOrganization": "Hackerrank",
         "url" : "https://www.hackerrank.com/certificates/ca128f4b163f",
         "date" : "Aug 2023",
-        "logo":"hackerrank.png",
+        "logo":"/hackerrank.png",
+        "width":"400",
+        "height":"400",
         "credentials"  :"",
         "courses":[
             {
@@ -267,7 +274,9 @@ export    const certifications = [
         "issuingOrganization": "Hackerrank",
         "url" : "https://www.hackerrank.com/certificates/f6dfb1b5c03b",
         "date" : "Dec 2023",
-        "logo":"hackerrank.png",
+        "logo":"/hackerrank.png",
+        "width":"400",
+        "height":"400",
         "credentials"  :"",
         "courses":[
             {
@@ -311,7 +320,9 @@ export    const certifications = [
         "issuingOrganization": "Hackerrank",
         "url" : "https://www.hackerrank.com/certificates/d13515ed1a7a",
         "date" : "Dec 2023",
-        "logo":"hackerrank.png",
+        "logo":"/hackerrank.png",
+        "width":"400",
+        "height":"400",
         "credentials"  :"",
         "courses":[
             {

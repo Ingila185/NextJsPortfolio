@@ -9,7 +9,7 @@ export default function CustomImage({ imagePath , width , height} :  any) {
       src={imagePath}
       width={width}
       height={height}
-      alt="Picture of the author"
+      alt="Picture of the company"
     />
   )
 }

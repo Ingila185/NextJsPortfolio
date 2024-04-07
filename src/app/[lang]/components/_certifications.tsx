@@ -2,6 +2,8 @@
 import { useState, useEffect } from 'react'
 import {certifications} from '../api/certifications';
 import TemplateDiv from "./_divAnimation";
+import exp from 'constants';
+import CustomImage from './_image';
 export default function Certifications()
 {
     return (
@@ -16,7 +18,9 @@ export default function Certifications()
 shadow-lg bg-gradient-to-t from-gray-900 to-slate-500 ">
 <a target='_blank' href= {cert.url}>
 
-<img className="w-full" src={cert.logo} alt="Certifications" />
+<CustomImage imagePath={cert.logo} width = {cert.width} height={cert.height}
+ alt = "companyLogo"/>
+
 </a>
 <div className="px-6 py-2">
   <div className="font-bold text-md sm-2 underline">
