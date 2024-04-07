@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.5",
-    "i18next": "^23.10.1",
     "next": "14.0.1",
+    "next-intl": "^3.11.1",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",

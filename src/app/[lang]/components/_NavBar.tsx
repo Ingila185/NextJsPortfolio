@@ -1,12 +1,15 @@
 import { useTheme} from 'next-themes'
-import Link from 'next/link'
+
 import { useState } from "react"; // import state
 import {navLinks} from '../api/navLinks';
+import router from 'next/router';
 export default function NavBar()
 {
   const {theme, setTheme} = useTheme()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
+
+  
 return (
  <nav className="pt-10 px-10 flex bg-transparent overflow-hidden">
 
@@ -39,8 +42,11 @@ return (
   <li key = {idx} className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
   md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-    <a href = {link.path}>{link.name}</a>
-  </li>)}
+   <a href = {link.path}>{link.name}
+    {link.name}
+    </a>
+  </li>)
+  }
 <li>
       <button className="block py-2 px-3 md:p-2 sm:p-2 text-gray-900 rounded hover:bg-gray-100 
         md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 

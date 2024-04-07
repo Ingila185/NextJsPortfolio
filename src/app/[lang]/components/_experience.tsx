@@ -1,4 +1,4 @@
-import experience from "@/app/experience/page";
+import experience from "@/app/[lang]/experience/page";
 import { useState, useEffect } from 'react'
 import Accordion from "./_accordion";
 import {workExperience} from '../api/experience';

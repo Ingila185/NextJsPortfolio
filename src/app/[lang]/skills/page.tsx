@@ -1,4 +1,4 @@
-import Skills from "@/app/components/_skills";
+import Skills from "@/app/[lang]/components/_skills";
 
 export default function skills()
 {

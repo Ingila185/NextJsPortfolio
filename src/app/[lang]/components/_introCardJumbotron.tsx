@@ -1,13 +1,20 @@
+import {useTranslations} from 'next-intl';
+
 
 export default function IntroCardJumbotron() {
+    const t = useTranslations('jumbotron');
+
     return (
 
         <section className="bg-transparent  bg-blend-multiply">
             <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
                 <h1 className="mb-4 text-4xl font-extrabold  leading-none   md:text-5xl lg:text-6xl">
-                    Hi there, I am Ingila. <span className="animate-wave inline-block">👋 </span>
+                    {t('heading')}<span className="animate-wave inline-block">👋 </span>
+                
                 </h1>
-                <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 lg:px-48">I am just another full stack developer who loves to code, learn every technology stack and cotribute to the open source community. Here's where you can find me.</p>
+                <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 lg:px-48">
+                {t('subHeading')}                    
+            </p>
                 {/**Icons div */}
                 <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                     {/**Email */}
