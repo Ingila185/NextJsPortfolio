@@ -1,8 +1,7 @@
-import experience from "@/app/[lang]/experience/page";
-import { useState, useEffect } from 'react'
-import Accordion from "./_accordion";
+import Image from 'next/image'
+
 import {workExperience} from '../api/experience';
-import { workerData } from "worker_threads";
+import CustomImage from './_image';
 export default function Experience()
 {
     return (
@@ -14,7 +13,8 @@ workExperience.map(( exp, idx ) => (
  
 <div key = {idx} className="max-w-screen  rounded border shadow-lg bg-gradient-to-t from-slate-700 to-slate-800 hover:scale-110 duration-300">
 <a href = {exp.url} target = "_blank">
-<img className="w-full p-5" src={exp.logo} alt="Experience" />
+
+<CustomImage  className="w-full p-5"  imagePath={exp.logo} width = {exp.width} height={exp.height} alt = "companyLogo"/>
 </a>
 <div key = {idx} className="px-6 py-4">
   <div key = {idx} className="flex flex-row flex-nowrap gap-4">
