@@ -2,5 +2,40 @@
     "jumbotron": {
       "heading": "Hi there, I am Ingila.",
       "subHeading": "I am just another full stack developer who loves to code, learn every technology stack and cotribute to the open source community. Here's where you can find me:"
+    },
+    "nav": {
+      "Home": "Home",
+      "Experience": "Experience",
+      "Certifications": "Certifications",
+      "Skills": "Skills",
+      "Projects": "Projects",
+      "Hackathons": "Hackathons",
+      "Resume": "Resume",
+      "Contact": "Contact",
+      "Blog": "Blog"
+
+    },
+
+    "experience":
+    {
+      "hbl":{
+        "title":"Senior Full Stack Developer",
+        "from":"Jan 2023",
+        "to":"Present",
+        "p1":"Improved Remittance payment efficiency by 90% by revamping the legacy Remittance processing software into modern, feature-rich Remittance processing solution.",
+        "p2":"Conducted 6-day MEAN Stack training for 26 developers with varying levels of experience.",
+        "p3":"Developed 50+ end-to-end applications using JavaScript, Node.js, .NET Web API, React, Angular, TypeScript and Django. Performed CI/CD by DevOps, GitLab, and GitHub Actions."
+      },
+      "hbl2":{
+        "title":"Senior Full Stack Developer",
+        "from":"Jan 2023",
+        "to":"Present",
+        "p1":"Reduced manual efforts by 95% by automating the process of electronic Proceeds Realization Certificates (ePRC) generation by developing reusable APIs.",
+        "p2":"Conducted 6-day MEAN Stack training for 26 developers with varying levels of experience.",
+        "p3":"Implemented CI/CD pipelines and workflows using GitLab, GitHub Actions, OpenShift pipelines, DevSecOps. Used Docker for containerization and Kubernetes for Orchestration."
+      }
+
     }
+
+
 }

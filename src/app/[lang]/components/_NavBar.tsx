@@ -1,4 +1,5 @@
 import { useTheme} from 'next-themes'
+import {useTranslations} from 'next-intl';
 
 import { useState } from "react"; // import state
 import {navLinks} from '../api/navLinks';
@@ -7,6 +8,7 @@ export default function NavBar()
 {
   const {theme, setTheme} = useTheme()
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
+  const t = useTranslations('nav');
 
 
   
@@ -43,7 +45,7 @@ return (
   md:hover:bg-transparent md:hover:text-gray-700 md:dark:hover:text-gray-500 dark:text-white 
   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
    <a href = {link.path}>{link.name}
-    {link.name}
+  t({link.name})
     </a>
   </li>)
   }

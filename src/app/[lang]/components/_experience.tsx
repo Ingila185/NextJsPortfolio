@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 import {workExperience} from '../api/experience';
 import CustomImage from './_image';
