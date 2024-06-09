@@ -1,7 +1,4 @@
 export    const certifications = [
-  
-    
-
     {
         "name":"AWS Cloud Solutions Architect",
         "issuingOrganization": "CoursEra",
