@@ -1,4 +1,160 @@
 export    const certifications = [
+  
+    
+
+    {
+        "name":"AWS Cloud Solutions Architect",
+        "issuingOrganization": "CoursEra",
+        "url" : "https://coursera.org/share/94e965fb8138b2220cedb1795a0fe68b",
+        "date" : "Aug 2023",
+        "logo":"/aws.svg",
+        "width":"300",
+        "height":"100",
+        "credentials"  :"LKSJJGSSGFX",
+        "courses":[
+                    {
+                "name":"AWS Cloud Technical Essentials",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
+                "tag":"AWS EC2 / AWS Lambda / AWS S3 / AWS Certification"
+
+            },
+           {
+                "name":"Architecting Solutions on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
+                "tag":"AWS Dynamo DB / AWS SQS / AWS SNS "
+
+            },
+            {
+                "name":"Introduction to Designing Data Lakes on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/3L5RST9Q9WN6",
+                "tag":"AWS LakeFormation / AWS Glue / AWS EMR / AWS Athena / AWS RedShift / AWS Aurora"
+
+            },
+
+            {
+                "name":"Exam Prep: AWS Certified Solutions Architect - Associate",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/5P3RHAWHGCHE",
+                "tag":"Cloud Architecture / AWS Management Console "
+
+            }
+           
+        ]
+    
+    },
+
+    {
+        "name":"IBM DevOps and Software Engineering Specialization",
+        "issuingOrganization": "CoursEra",
+        "url" : "https://coursera.org/share/ab2d88f3cff7c136cab8d2c81a844dfc",
+        "date" : "Aug 2023",
+        "logo":"/ibm.svg",
+        "width":"300",
+        "height":"100",
+        "credentials"  :"LKSJJGSSGFX",
+        "courses":[
+                    {
+                "name":"Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/EWSYCC5BQW9T",
+                "tag":"Docker / Kubernetes / OpenShift"
+
+            },
+           {
+                "name":"Application Development using Microservices and Serverless",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/DF5AWQQS2SGC",
+                "tag":"Continuous Delivery"
+
+            },
+            {
+                "name":"Introduction to Test and Behavior Driven Development",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/VV2ZXVBNF2CH",
+                "tag":"Test Driven Development"
+
+            },
+            {
+                "name":"Continuous Integration and Continuous Delivery (CI/CD)",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/VV2ZXVBNF2CH",
+                "tag":"Continuous Integration"
+
+            },
+            {
+                "name":"Application Security for Developers and DevOps Professionals",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/95K8P2RD4XT5",
+                "tag":"Behaviour Driven Development"
+
+            },
+            {
+                "name":"Monitoring and Observability for Development and DevOps",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/95K8P2RD4XT5",
+                "tag":"DevOps"
+
+            },
+            {
+                "name":"DevOps Capstone Project",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/974U2ZFWKXMJ",
+                "tag":"DevSecOps"
+
+            }
+
+        ]
+    
+    },
+
+    {
+        "name":"IBM Applied DevOps Engineering",
+        "issuingOrganization": "CoursEra",
+        "url" : "https://coursera.org/share/1ec4be210c5249c5d51e10e43446e302",
+        "date" : "Aug 2023",
+        "logo":"/ibm.svg",
+        "width":"300",
+        "height":"100",
+        "credentials"  :"LKSJJGSSGFX",
+        "courses":[
+                    {
+                "name":"Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/EWSYCC5BQW9T",
+                "tag":"Docker / Kubernetes / OpenShift"
+
+            },
+           {
+                "name":"Application Development using Microservices and Serverless",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/DF5AWQQS2SGC",
+                "tag":"Continuous Delivery"
+
+            },
+            {
+                "name":"Introduction to Test and Behavior Driven Development",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/VV2ZXVBNF2CH",
+                "tag":"Test Driven Development"
+
+            },
+            {
+                "name":"Continuous Integration and Continuous Delivery (CI/CD)",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/VV2ZXVBNF2CH",
+                "tag":"Continuous Integration"
+
+            },
+            {
+                "name":"Application Security for Developers and DevOps Professionals",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/95K8P2RD4XT5",
+                "tag":"Behaviour Driven Development"
+
+            },
+            {
+                "name":"Monitoring and Observability for Development and DevOps",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/95K8P2RD4XT5",
+                "tag":"DevOps"
+
+            },
+            {
+                "name":"DevOps Capstone Project",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/974U2ZFWKXMJ",
+                "tag":"DevSecOps"
+
+            }
+
+        ]
+    
+    },
     {
         "name":"Meta Frontend Developer Specialization",
         "issuingOrganization": "CoursEra / Meta",
@@ -126,101 +282,6 @@ export    const certifications = [
 
             },
         ]
-    },
-    {
-        "name":"IBM DevOps and Software Engineering Specialization (In Progress)",
-        "issuingOrganization": "CoursEra",
-        "url" : "https://coursera.org/share/ab2d88f3cff7c136cab8d2c81a844dfc",
-        "date" : "Aug 2023",
-        "logo":"/ibm.svg",
-        "width":"300",
-        "height":"100",
-        "credentials"  :"LKSJJGSSGFX",
-        "courses":[
-          /*  {
-                "name":"Introduction To DevOps",
-                "url":"https://coursera.org/share/6553c11ae7630e67a124ef5e52a8d083",
-                "tag":"Back-End Development"
-
-            },{
-                "name":"Introduction to Cloud Computing",
-                "url":"https://coursera.org/share/77c84b58aef89ad9727b05a3e4ddc08c",
-                "tag":"Cloud Computing"
-            },
-            {
-                "name":"Introduction to Agile Development and Scrum",
-                "url":"#",
-                "tag":"Agile / Scrum"
-
-            },
-            {
-                "name":"Hands-on Introduction to Linux Commands and Shell Scripting",
-                "url":"#",
-                "tag":"Linux / Shell Scripting"
-
-            },
-            {
-                "name":"Getting Started with Git and GitHub",
-                "url":"#",
-                "tag":"Git"
-
-            },
-            {
-                "name":"Python for Data Science, AI & Development",
-                "url":"#",
-                "tag":"Data Science / AI"
-            },
-            {
-                "name":"Developing AI Applications with Python and Flask",
-                "url":"#",
-                "tag":"Python / Flask"
-
-            },*/
-            {
-                "name":"Introduction to Containers w/ Docker, Kubernetes & OpenShift",
-                "url":"#",
-                "tag":"Docker / Kubernetes / OpenShift"
-
-            },
-           {
-                "name":"Application Development using Microservices and Serverless",
-                "url":"#",
-                "tag":"Continuous Delivery"
-
-            },
-            {
-                "name":"Introduction to Test and Behavior Driven Development",
-                "url":"#",
-                "tag":"Test Driven Development"
-
-            },
-            {
-                "name":"Continuous Integration and Continuous Delivery (CI/CD)",
-                "url":"#",
-                "tag":"Continuous Integration"
-
-            },
-            {
-                "name":"Application Security for Developers and DevOps Professionals",
-                "url":"#",
-                "tag":"Behaviour Driven Development"
-
-            },
-            {
-                "name":"Monitoring and Observability for Development and DevOps",
-                "url":"#",
-                "tag":"DevOps"
-
-            },
-            {
-                "name":"DevOps Capstone Project",
-                "url":"#",
-                "tag":"DevSecOps"
-
-            }
-
-        ]
-    
     },
 
     {
