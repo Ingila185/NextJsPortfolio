@@ -12,26 +12,70 @@ export    const certifications = [
                     {
                 "name":"AWS Cloud Technical Essentials",
                 "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
-                "tag":"AWS EC2 / AWS Lambda / AWS S3 / AWS Certification"
+                "tag":"AWS EC2 "
+
+            },
+            {
+                "name":"AWS Cloud Technical Essentials",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
+                "tag":"AWS Lambda "
+
+            },
+            {
+                "name":"AWS Cloud Technical Essentials",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
+                "tag":"AWS S3 "
 
             },
            {
                 "name":"Architecting Solutions on AWS",
                 "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
-                "tag":"AWS Dynamo DB / AWS SQS / AWS SNS "
+                "tag":"SQS "
+
+            },
+            {
+                "name":"Architecting Solutions on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
+                "tag":"SNS "
+
+            },
+            {
+                "name":"Architecting Solutions on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/GTHHXPG8RM5C",
+                "tag":"Dynamo DB"
 
             },
             {
                 "name":"Introduction to Designing Data Lakes on AWS",
                 "url":"https://www.coursera.org/account/accomplishments/certificate/3L5RST9Q9WN6",
-                "tag":"AWS LakeFormation / AWS Glue / AWS EMR / AWS Athena / AWS RedShift / AWS Aurora"
+                "tag":"AWS LakeFormation"
+
+            },
+
+            {
+                "name":"Introduction to Designing Data Lakes on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/3L5RST9Q9WN6",
+                "tag":"AWS Glue "
+
+            },
+
+            {
+                "name":"Introduction to Designing Data Lakes on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/3L5RST9Q9WN6",
+                "tag":" AWS EMR / AWS Aurora"
+
+            },
+            {
+                "name":"Introduction to Designing Data Lakes on AWS",
+                "url":"https://www.coursera.org/account/accomplishments/certificate/3L5RST9Q9WN6",
+                "tag":"AWS Athena "
 
             },
 
             {
                 "name":"Exam Prep: AWS Certified Solutions Architect - Associate",
                 "url":"https://www.coursera.org/account/accomplishments/certificate/5P3RHAWHGCHE",
-                "tag":"Cloud Architecture / AWS Management Console "
+                "tag":"AWS RedShift "
 
             }
            
