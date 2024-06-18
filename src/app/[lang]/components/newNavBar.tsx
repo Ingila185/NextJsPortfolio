@@ -69,14 +69,12 @@ return (
             className="px-4 cursor-pointer capitalize py-6 text-lg"
           >
             <Link onClick={() => setNav(!nav)} href={link.path}>
-            {link.name}s
+            {link.name}
             </Link>
           </li>
          
         ))}
-  <li>
-    <Link href = "#">hjhj</Link>
-    </li>
+
       </ul>
     )}
   </div>
