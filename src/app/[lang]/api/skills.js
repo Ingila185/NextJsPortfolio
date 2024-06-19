@@ -48,7 +48,7 @@ export const techSkills = {
         years: "9"
     },
     {
-        name: "Java",
+        name: "J2SE",
         years: "4"
     },
     {
@@ -96,6 +96,10 @@ export const techSkills = {
         name: "Python",
         years: 3
     },
+    {
+        name: "C++",
+        years: 2
+    }
 ],
 
 "misc":

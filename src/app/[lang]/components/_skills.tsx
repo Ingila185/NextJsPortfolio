@@ -9,25 +9,31 @@ import Miscskills from "./_miscSkills";
 
 export default function Skills () {
     return (
+<div className="p-5">
 
-
-        <div className="m-8 xl:grid xl:grid-cols-2 xl:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 md:grid-cols-1 md:gap-2 sm:grid-cols-1 sm:gap-2 xs:grid-cols-1 xs:gap-2 ">
-        <div className="m-2 rounded-lg  bg-slate-800 hover:scale-110 duration-300">
+        <div className="m-5 flex flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col gap-5 justify-center">
+        <div className="w-1/2 md:w-full sm:w-full xs:w-full h-full   rounded-lg  bg-slate-800 hover:scale-110 duration-300">
         <Frontendskills />
         </div>
-        
-        <div className="m-2 rounded-lg  bg-slate-800 hover:scale-110 duration-300">
+       
+        <div className="w-1/2 md:w-full sm:w-full xs:w-full h-full   rounded-lg  bg-slate-800 hover:scale-110 duration-300">
         <Backendskills />
         </div>
+</div>
+        <div className="m-5 flex  flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col gap-5 justify-center">
 
-        <div className="m-2 rounded-lg  bg-slate-800 hover:scale-110 duration-300">
+        <div className="w-1/2 md:w-full sm:w-full xs:w-full h-full  rounded-lg  bg-slate-800 hover:scale-110 duration-300">
         <Languageskills />
         </div>
 
-        <div className="m-2 rounded-lg  bg-slate-800 hover:scale-110 duration-300">
+        <div className="w-1/2  md:w-full sm:w-full xs:w-full h-full  rounded-lg  bg-slate-800 hover:scale-110 duration-300">
         <Miscskills />
         </div>
         
+        
+        
+        
+        </div>
         </div>
     )
 }

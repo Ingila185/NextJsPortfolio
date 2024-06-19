@@ -1,15 +1,21 @@
 'use client';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import {techSkills} from '../api/skills';
-export default function Backendskills () {
+import { techSkills } from '../api/skills';
+export default function Backendskills() {
     const data = techSkills.backend;
     return (
+        <ResponsiveContainer width="90%" height={300}>
 
-<BarChart width={500} height={300} data={data}>
-      <XAxis type="category"   dataKey="name"  />
-      <YAxis dataKey="years" type="number" />
-      <Tooltip labelStyle={{color:'#110F50'}}/>
-      <Bar dataKey="years" fill="#C605FA" barSize={40} activeBar={false} />
-    </BarChart>
+            <BarChart data={data}>
+                <XAxis type="category" dataKey="name" padding={{ left: 20, right: 20 }} />
+                <YAxis dataKey="years" type="number" />
+                <Tooltip labelStyle={{ color: '#110F50' }} />
+                <Legend verticalAlign="top" />
+
+                <Bar dataKey="years" fill="#C605FA" barSize={40} activeBar={false} name="Backend Frameworks (Years)" />
+            </BarChart>
+        </ResponsiveContainer>
+
     )
+
 }
