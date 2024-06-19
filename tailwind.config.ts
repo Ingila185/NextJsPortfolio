@@ -22,6 +22,9 @@ const config: Config = {
     },
       
     extend: {
+      screens: {
+        'xs': { 'raw': '(max-width: 630px)' },
+      },
       keyframes: {
         typing: {
           '0%': {
