@@ -30,7 +30,7 @@ export const navLinks =
     },
     {
         "name":"Resume",
-        "path":"/CVIngilaEjazSC.pdf"
+        "path":"/CVIngilaFSDRR.pdf"
 
     },
     {
