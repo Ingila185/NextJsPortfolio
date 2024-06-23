@@ -1,6 +1,8 @@
 'use client'
 import './globals.css'
 import { ThemeProvider } from 'next-themes';
+import { Analytics } from "@vercel/analytics/react"
+
 import NewNavBar from './components/newNavBar';
 
  
@@ -22,6 +24,7 @@ export default function RootLayout({children, params: {lang}}: {children: React.
 
     <div className='p-10 dark:text-gray-300'>
             {children}
+            <Analytics />
             </div>
         </main>
       </ThemeProvider>   
