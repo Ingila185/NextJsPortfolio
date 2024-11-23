@@ -1,4 +1,87 @@
 export    const certifications = [
+    
+    {
+        "name":"Algorithms Specialization",
+        "issuingOrganization": "CoursEra",
+        "url" : "https://coursera.org/share/9ede656eef6ead056e057fbc951a4c76",
+        "date" : "Nov 2024",
+        "logo":"/stanford.png",
+        "width":"400",
+        "height":"100",
+        "credentials"  :"ZKNP1VXSIP7X",
+        "courses":[
+            {
+                "name":"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
+                "url":"https://www.coursera.org/account/accomplishments/verify/ZKNP1VXSIP7X",
+                "tag":"Divide and Conquer"
+
+            },
+            {
+                "name":"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
+                "url":"https://www.coursera.org/account/accomplishments/verify/ZKNP1VXSIP7X",
+                "tag":"Sorting and Searching"
+
+            },
+            {
+                "name":"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
+                "url":"https://www.coursera.org/account/accomplishments/verify/ZKNP1VXSIP7X",
+                "tag":" Randomized Algorithms"
+
+            },
+            {
+                "name":"Graph Search, Shortest Paths, and Data Structures",
+                "url":"https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome",
+                "tag":"Graph Search"
+
+            },
+            {
+                "name":"Graph Search, Shortest Paths, and Data Structures",
+                "url":"https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome",
+                "tag":"Shortest Paths"
+
+            },
+            {
+                "name":"Graph Search, Shortest Paths, and Data Structures",
+                "url":"https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome",
+                "tag":"Data Structures"
+
+            },
+            {
+                "name":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+                "url":"https://www.coursera.org/learn/algorithms-greedy/home/welcome",
+                "tag":"Greedy Algorithms"
+
+            },
+            {
+                "name":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+                "url":"https://www.coursera.org/learn/algorithms-greedy/home/welcome",
+                "tag":"Minimum Spanning Trees"
+
+            },
+            {
+                "name":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+                "url":"https://www.coursera.org/learn/algorithms-greedy/home/welcome",
+                "tag":"Dynamic Programming"
+
+            },
+            {
+                "name":"Shortest Paths Revisited, NP-Complete Problems and What To Do About Them",
+                "url":"https://www.coursera.org/learn/algorithms-npcomplete/home/welcome",
+                "tag":"Shortest Paths Revisited"
+
+            },
+            {
+                "name":"Shortest Paths Revisited, NP-Complete Problems and What To Do About Them",
+                "url":"https://www.coursera.org/learn/algorithms-npcomplete/home/welcome",
+                "tag":"NP-Complete Problems"
+
+            },
+        ]
+    
+    },
+
+    
+    
     {
         "name":"AWS Cloud Solutions Architect",
         "issuingOrganization": "CoursEra",
@@ -331,7 +414,7 @@ export    const certifications = [
         "url" : "https://www.hackerrank.com/certificates/ca128f4b163f",
         "date" : "Aug 2023",
         "logo":"/hackerrank.png",
-        "width":"400",
+        "width":"500",
         "height":"400",
         "credentials"  :"",
         "courses":[
@@ -377,7 +460,7 @@ export    const certifications = [
         "url" : "https://www.hackerrank.com/certificates/f6dfb1b5c03b",
         "date" : "Dec 2023",
         "logo":"/hackerrank.png",
-        "width":"400",
+        "width":"500",
         "height":"400",
         "credentials"  :"",
         "courses":[
@@ -423,7 +506,7 @@ export    const certifications = [
         "url" : "https://www.hackerrank.com/certificates/d13515ed1a7a",
         "date" : "Dec 2023",
         "logo":"/hackerrank.png",
-        "width":"400",
+        "width":"500",
         "height":"400",
         "credentials"  :"",
         "courses":[

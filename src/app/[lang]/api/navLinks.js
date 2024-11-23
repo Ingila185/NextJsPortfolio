@@ -33,11 +33,11 @@ export const navLinks =
         "path":"/CVIngilaFSDRR.pdf"
 
     },
-    {
+    /*{
         "name":"Contact",
         "path":"/contact"
 
-    },
+    },*/
     {
         "name":"Blog",
         "path":"/blog"
