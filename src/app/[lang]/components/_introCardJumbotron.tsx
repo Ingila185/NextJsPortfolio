@@ -103,7 +103,7 @@ export default function IntroCardJumbotron() {
                     {/*Dev.to */}
                     <a href="http://dev.to/@ingila185" target = "_blank" 
                     className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                       <img  className='w-10 h-10' src = 'devRainbow.png' />
+                       <img  className='w-10 h-10' src = 'devRainbow.png' alt="devTo Logo" />
                     </a>
 
                 </div>
