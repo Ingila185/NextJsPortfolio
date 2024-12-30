@@ -3,7 +3,7 @@ export    const certifications = [
     {
         "name":"Algorithms Specialization",
         "issuingOrganization": "CoursEra",
-        "url" : "https://coursera.org/share/9ede656eef6ead056e057fbc951a4c76",
+        "url" : "https://coursera.org/share/30c5b5e121f778b6b2cfff7d7c7151c4",
         "date" : "Nov 2024",
         "logo":"/stanford.png",
         "width":"400",
@@ -12,67 +12,67 @@ export    const certifications = [
         "courses":[
             {
                 "name":"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
-                "url":"https://www.coursera.org/account/accomplishments/verify/ZKNP1VXSIP7X",
+                "url":"https://coursera.org/share/9ede656eef6ead056e057fbc951a4c76",
                 "tag":"Divide and Conquer"
 
             },
             {
                 "name":"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
-                "url":"https://www.coursera.org/account/accomplishments/verify/ZKNP1VXSIP7X",
+                "url":"https://coursera.org/share/9ede656eef6ead056e057fbc951a4c76",
                 "tag":"Sorting and Searching"
 
             },
             {
                 "name":"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
-                "url":"https://www.coursera.org/account/accomplishments/verify/ZKNP1VXSIP7X",
+                "url":"https://coursera.org/share/9ede656eef6ead056e057fbc951a4c76",
                 "tag":" Randomized Algorithms"
 
             },
             {
                 "name":"Graph Search, Shortest Paths, and Data Structures",
-                "url":"https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome",
+                "url":"https://coursera.org/share/586430393d6f9d4808d3926401616f95",
                 "tag":"Graph Search"
 
             },
             {
                 "name":"Graph Search, Shortest Paths, and Data Structures",
-                "url":"https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome",
+                "url":"https://coursera.org/share/586430393d6f9d4808d3926401616f95",
                 "tag":"Shortest Paths"
 
             },
             {
                 "name":"Graph Search, Shortest Paths, and Data Structures",
-                "url":"https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome",
+                "url":"https://coursera.org/share/586430393d6f9d4808d3926401616f95",
                 "tag":"Data Structures"
 
             },
             {
                 "name":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
-                "url":"https://www.coursera.org/learn/algorithms-greedy/home/welcome",
+                "url":"https://coursera.org/share/6c88b2436d5ba1bc334ba9d54bd07516",
                 "tag":"Greedy Algorithms"
 
             },
             {
                 "name":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
-                "url":"https://www.coursera.org/learn/algorithms-greedy/home/welcome",
+                "url":"https://coursera.org/share/6c88b2436d5ba1bc334ba9d54bd07516",
                 "tag":"Minimum Spanning Trees"
 
             },
             {
                 "name":"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
-                "url":"https://www.coursera.org/learn/algorithms-greedy/home/welcome",
+                "url":"https://coursera.org/share/6c88b2436d5ba1bc334ba9d54bd07516",
                 "tag":"Dynamic Programming"
 
             },
             {
                 "name":"Shortest Paths Revisited, NP-Complete Problems and What To Do About Them",
-                "url":"https://www.coursera.org/learn/algorithms-npcomplete/home/welcome",
+                "url":"https://coursera.org/share/e1b86b06b7ea16275da9bfd10fd9ce44",
                 "tag":"Shortest Paths Revisited"
 
             },
             {
                 "name":"Shortest Paths Revisited, NP-Complete Problems and What To Do About Them",
-                "url":"https://www.coursera.org/learn/algorithms-npcomplete/home/welcome",
+                "url":"https://coursera.org/share/e1b86b06b7ea16275da9bfd10fd9ce44",
                 "tag":"NP-Complete Problems"
 
             },
