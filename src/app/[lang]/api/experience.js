@@ -4,10 +4,10 @@ export const workExperience = [
     title: "Staff Software Consultant",
     from: "Jan 2025",
     to: "Present",
-    url: "https://efulife.com/",
+    url: "https://10pearls.com/",
     logo: "/tenPearlsLogo.png",
-    width: "400",
-    height: "150",
+    width: "250",
+    height: "100",
     desc: [
       "Developed and maintained multiple web applications using Angular 18, React, Next.js 14, Nest.js, Node.js and .NET 8.0, ensuring high performance and responsiveness.",
       "Wrote unit, integration and end-to-end tests to ensure code quality and reliability with NUnit, XUnit, Jest, Jasmine/Karma, and Cypress.",
@@ -52,7 +52,7 @@ export const workExperience = [
     to: "Nov 2017",
     url: "https://www.bankalhabib.com/",
     logo: "/bahl.png",
-    width: "400",
+    width: "500",
     height: "500",
     desc: [
       "Improved customer experience by 80% by Developing various CRM modules with Swing and integrated them with DB2 for dynamic data retrieval used by 1100+ bank branches in Pakistan.",
