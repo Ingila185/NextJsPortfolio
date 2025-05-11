@@ -27,17 +27,7 @@ export const navLinks =
         "name":"Hackathons",
         "path":"/hackathons"
 
-    },
-    {
-        "name":"Resume",
-        "path":"/CVIngilaFSDRR.pdf"
-
-    },
-    /*{
-        "name":"Contact",
-        "path":"/contact"
-
-    },*/
+    },    
     {
         "name":"Blog",
         "path":"/blog"
