@@ -1,5 +1,116 @@
 export    const certifications = [
     
+
+    {
+        "name":"n8n Automations - Build LLM Apps and AI Agents with n8n",
+        "issuingOrganization": "Udemy",
+        "url" : "https://www.udemy.com/certificate/UC-87fafdc5-633f-4d83-84b1-bc3c061deea4/",
+        "date" : "Aug 2025",
+        "logo":"/n8n.png",
+        "width":"450",
+        "height":"100",
+        "credentials"  :"",
+        "courses":[
+             {
+                "name":"AI Agents",
+                "url":"",
+                "tag":"AI Agents"
+
+            },
+             {
+                "name":"RAG Chatbots",
+                "url":"",
+                "tag":"RAG Chatbots"
+
+            },
+
+              {
+                "name":"Vector Databases",
+                "url":"",
+                "tag":"Vector Databases"
+
+            },
+
+              {
+                "name":"Embedding Models",
+                "url":"",
+                "tag":"Embedding Models"
+
+            },
+
+              {
+                "name":"RAG Chatbots",
+                "url":"",
+                "tag":"RAG Chatbots"
+
+            },
+
+              {
+                "name":"Test Time Compute - TTC",
+                "url":"",
+                "tag":"Test Time Compute - TTC"
+
+            },
+
+             
+              {
+                "name":"Chat GPT",
+                "url":"",
+                "tag":"Chat GPT"
+
+            },
+
+              {
+                "name":"Claude",
+                "url":"",
+                "tag":"Claude"
+
+            },
+
+              {
+                "name":"Llama",
+                "url":"",
+                "tag":"Llama"
+
+            },
+
+              {
+                "name":"DeepSeek",
+                "url":"",
+                "tag":"DeepSeek"
+
+            },
+
+              {
+                "name":"Pinecone Embedding",
+                "url":"",
+                "tag":"Pinecone Embedding"
+
+            },
+
+              {
+                "name":"Prompt Engineering",
+                "url":"",
+                "tag":"Prompt Engineering"
+
+            },
+
+             {
+                "name":"Prompt Injections",
+                "url":"",
+                "tag":"Prompt Injections"
+
+            },
+
+              {
+                "name":"Jailbreaking",
+                "url":"",
+                "tag":"Jailbreaking"
+
+            },
+        ]
+    
+    },
     {
         "name":"Algorithms Specialization",
         "issuingOrganization": "CoursEra",
@@ -80,6 +191,7 @@ export    const certifications = [
     
     },
 
+  
     
     
     {

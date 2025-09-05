@@ -15,7 +15,28 @@
       "Contact": "Kontakt",
       "Blog": "Blog"
 
-    }
+    },
 
+
+    "experience":
+    {
+      "hbl":{
+        "title":"Leitender Full-Stack-Entwickler",
+        "from":"Jan 2023",
+        "to":"Present",
+        "p1":"Verbesserte Effizienz von Überweisungszahlungen um 90 % durch die Umgestaltung der alten Überweisungsverarbeitungssoftware zu einer modernen, funktionsreichen Überweisungsverarbeitungslösung.",
+        "p2":"Durchführung eines 6-tägigen MEAN-Stack-Trainings für 26 Entwickler mit unterschiedlichem Erfahrungsniveau.",
+        "p3":"Entwicklung von über 50 End-to-End-Anwendungen mit JavaScript, Node.js, .NET Web API, React, Angular, TypeScript und Django. Durchführung von CI/CD durch DevOps, GitLab und GitHub Actions."
+      },
+      "hbl2":{
+        "title":"Full-Stack-Entwickler",
+        "from":"Jan 2023",
+        "to":"Present",
+        "p1":"Reduced manual efforts by 95% by automating the process of electronic Proceeds Realization Certificates (ePRC) generation by developing reusable APIs.",
+        "p2":"Conducted 6-day MEAN Stack training for 26 developers with varying levels of experience.",
+        "p3":"Implemented CI/CD pipelines and workflows using GitLab, GitHub Actions, OpenShift pipelines, DevSecOps. Used Docker for containerization and Kubernetes for Orchestration."
+      }
+
+    }
 
 }
