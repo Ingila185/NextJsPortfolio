@@ -1,5 +1,48 @@
 export    const certifications = [
     
+        {
+        "name":"Google AI Essentials",
+        "issuingOrganization": "CoursEra",
+        "url" : "https://coursera.org/share/30c5b5e121f778b6b2cfff7d7c7151c4",
+        "date" : "Apr 2026",
+        "logo":"/google.png",
+        "width":"500",
+        "height":"100",
+        "credentials"  :"ZKNP1VXSIP7X",
+        "courses":[
+            {
+                "name":"Introduction to AI",
+                "url":"#",
+                "tag":"Introduction to AI"
+
+            },
+            {
+                "name":"Maximize Productivity With AI Tools",
+                "url":"#",
+                "tag":"Maximize Productivity With AI Tools"
+
+            },
+            {
+                "name":"Discover the Art of Prompting",
+                "url":"#",
+                "tag":" Discover the Art of Prompting"
+
+            },
+            {
+                "name":"Use AI Responsibly",
+                "url":"#",
+                "tag":"Use AI Responsibly"
+
+            },
+            {
+                "name":"Stay Ahead of the AI Curve",
+                "url":"#",
+                "tag":"Stay Ahead of the AI Curve"
+
+            },
+        ]
+    
+    },
 
     {
         "name":"n8n Automations - Build LLM Apps and AI Agents with n8n",
@@ -190,9 +233,6 @@ export    const certifications = [
         ]
     
     },
-
-  
-    
     
     {
         "name":"AWS Cloud Solutions Architect",
