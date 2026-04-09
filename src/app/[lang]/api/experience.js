@@ -1,9 +1,22 @@
 export const workExperience = [
+  
+  {
+    company: "Convo",
+    title: "Software Engineering Consultant",
+    from: "Aug 2025",
+    to: "Present",
+    url: "https://convo.com/",
+    logo: "/convo.png",
+    width: "250",
+    height: "100",
+    desc: ["Optimized server-side discount calculation logic for Nelt, reducing execution time by 75% for large datasets by re-engineering the algorithm from Quadratic to Linear time complexity.", "Reduced API latency by 75% on a Nestle-focused project by optimizing algorithmic complexity from quadratic to linear, resulting in a 42% relative drop in CPU utilization.","Re-engineered the Kenvue rebate portal, reducing end-to-end processing latency by 39% by streamlining RESTful API endpoints and improving frontend rendering logic for large batch transfers."],
+  },
+  
   {
     company: "10Pearls",
     title: "Staff Software Consultant",
     from: "Jan 2025",
-    to: "Present",
+    to: "Jul 2025",
     url: "https://10pearls.com/",
     logo: "/tenPearlsLogo.png",
     width: "250",
