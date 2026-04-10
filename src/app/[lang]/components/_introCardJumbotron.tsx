@@ -1,5 +1,6 @@
-import { useTranslations } from "next-intl";
+'use client';
 
+import { useTranslations } from "next-intl";
 export default function IntroCardJumbotron() {
   const t = useTranslations("jumbotron");
 
