@@ -102,7 +102,7 @@ export default function IntroCardJumbotron() {
                   fontFamily="none"
                   fontWeight="none"
                   fontSize="none"
-                  textAnchor="none"
+                  textAnchor="inherit"
                 >
                   <path d="M0,192v-192h192v192z" fill="none"></path>
                   <g fill="#0072B1">
